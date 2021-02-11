@@ -1,7 +1,7 @@
 js-portfolio
 ============
 
-Portfolio of Javascript projects
+In this repo I want to collect all my Javascript Portfolio Projects.
 
 ## FreeCodeCamp
 - [ ] Caesars Cipher
@@ -11,7 +11,7 @@ Portfolio of Javascript projects
 - [ ] Telephone Number Validation
 
 ## Python Challenge using Javascript
-- [ ] Challenge 1
+- [x] Challenge 1
 - [ ] Challenge 2
 - [ ] Challenge 3
 - [ ] Challenge 4
