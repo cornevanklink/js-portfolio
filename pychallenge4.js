@@ -12,7 +12,8 @@ fs.readFile('py4source.txt',(error, msg) => {
     if(error) throw error;
     message = msg.toString();
 
-    for (i = 3; i < message.length-3; i++){
+    for (i = 4; i < message.length-4; i++){
+        if(message[i-4] === message[i-4].toLowerCase()){counter +=1;}
         if(message[i-3] === message[i-3].toUpperCase()){counter +=1;}
         if(message[i-2] === message[i-2].toUpperCase()){counter +=1;}
         if(message[i-1] === message[i-1].toUpperCase()){counter +=1;}
@@ -20,13 +21,15 @@ fs.readFile('py4source.txt',(error, msg) => {
         if(message[i+1] === message[i+1].toUpperCase()){counter +=1;}
         if(message[i+2] === message[i+2].toUpperCase()){counter +=1;}
         if(message[i+3] === message[i+3].toUpperCase()){counter +=1;}
+        if(message[i+4] === message[i+4].toLowerCase()){counter +=1;}
 
 
-        if(counter === 7){
+        if(counter === 9){
             output += message[i];
         }
         counter = 0;
     }
+    // Removing line breaks
     output = output.replace(/(\r\n|\n|\r)/gm,"");
     console.log("The cleaned up message is " + output);
     

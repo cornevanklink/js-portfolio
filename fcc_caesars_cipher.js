@@ -7,8 +7,23 @@ Write a function which takes a ROT13 encoded string as input and returns a decod
 */
 
 function rot13(str) {
-
-    return str;
+  var decoded = "";
+  for (i = 0; i<str.length;i++){
+    var charcode = str.charCodeAt(i);
+    if(str[i] == "a"){
+        console.log("The charcode for " + str[i] +" at position" + i +  "is " +charcode);
+    }
+    if(str[i] !== " "){
+        var charcode = charcode + shift;
+        var char = String.fromCharCode(charcode);
+    }
+    else{
+        var char = " ";
+    }
+    
+    decoded += char;
+}
+    return decoded;
   }
   
   rot13("SERR PBQR PNZC");
