@@ -6,6 +6,7 @@ Answer: equality
 const fs = require('fs');
 var message = "";
 
+// importing txt-file and replacing certain characters with nothing
 fs.readFile('py3source.txt',(error, msg) => {
     if(error) throw error;
     message = msg.toString();
