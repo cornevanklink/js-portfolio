@@ -4,6 +4,7 @@ js-portfolio
 In this repo I want to collect all my Javascript Portfolio Projects.
 
 ## FreeCodeCamp
+The description of the FreeCodeCamp-projects can be found [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#javascript-algorithms-and-data-structures-projects).
 - [ ] Caesars Cipher
 - [ ] Cash Register
 - [ ] Palindrome Checker
@@ -11,6 +12,7 @@ In this repo I want to collect all my Javascript Portfolio Projects.
 - [ ] Telephone Number Validation
 
 ## Python Challenge using Javascript
+These challenges can be found [here](http://www.pythonchallenge.com/).
 - [x] Challenge 1
 - [x] Challenge 2
 - [x] Challenge 3
