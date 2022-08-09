@@ -3,16 +3,15 @@ Find rare characters in the mess below
 Answer: equality
 */
 
-const fs = require('fs');
+const fs = require("fs");
 var message = "";
 
 // importing txt-file and replacing certain characters with nothing
-fs.readFile('py3source.txt',(error, msg) => {
-    if(error) throw error;
-    message = msg.toString();
-    message = message.replace(/[.&!_#%@*+?^${}()|[\]\\]/g,"");
-    message = message.replace(/(\r\n|\n|\r)/gm,"");
+fs.readFile("py3source.txt", (error, msg) => {
+  if (error) throw error;
+  message = msg.toString();
+  message = message.replace(/[.&!_#%@*+?^${}()|[\]\\]/g, "");
+  message = message.replace(/(\r\n|\n|\r)/gm, "");
 
-    console.log("The cleaned up message is " + message);
-    
-})
+  console.log("The cleaned up message is " + message);
+});

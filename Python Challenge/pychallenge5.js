@@ -10,13 +10,12 @@ Answer:
 */
 
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var url = "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345"
+var url = "http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345";
 var xhr = new XMLHttpRequest();
 
-for(i = 0; i < 10; i++){
-    xhr.open('POST', url, false);  // third parameter is sync/async
-    xhr.send();
-    var response = xhr.responseText;
-    console.log(response);
-
+for (i = 0; i < 10; i++) {
+  xhr.open("POST", url, false); // third parameter is sync/async
+  xhr.send();
+  var response = xhr.responseText;
+  console.log(response);
 }

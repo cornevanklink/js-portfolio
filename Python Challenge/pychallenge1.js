@@ -4,5 +4,5 @@
     Answer: 274877906944
 */
 
-var answer = 2**38;
+var answer = 2 ** 38;
 console.log(answer);
