@@ -5,9 +5,9 @@ In this repo I want to collect all my Javascript Portfolio Projects.
 
 ## FreeCodeCamp
 The description of the FreeCodeCamp-projects can be found [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#javascript-algorithms-and-data-structures-projects).
-- [ ] Palindrome Checker
-- [ ] Roman Numeral Converter
-- [ ] Caesars Cipher
+- [x] Palindrome Checker
+- [x] Roman Numeral Converter
+- [x] Caesars Cipher
 - [ ] Telephone Number Validation
 - [ ] Cash Register
 
@@ -16,7 +16,7 @@ These challenges can be found [here](http://www.pythonchallenge.com/).
 - [x] Challenge 1
 - [x] Challenge 2
 - [x] Challenge 3
-- [ ] Challenge 4
+- [x] Challenge 4
 - [ ] Challenge 5
 - [ ] Challenge 6
 - [ ] Challenge 7
